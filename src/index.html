@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAILWIND_CSS with CLI</title>
-    <link rel="stylesheet" href="output.css">
+    <link href="output.css" rel="stylesheet">
+    <title>MINI</title>
 </head>
-<body">
-    <div class="room" style="background-color: #ffc0cb; text-align: center;">
-        <h2 class="text-align: center; font-weight: 500;">HEYLOOO</h2>
-    </div>
-    <div class="room2" style="background-color: greenyellow; text-align: center;">
-        <h1 class="text-3x1 font-bold underline">FROM FRONTEND COMMUNITY OF TAILWIND</h1>
-    </div>
-    
-    <div class="container1">
-        <div class="flex justify-center">
-            <div class="w-1/2">
-                <div class="bg-gray-200 p-4">
-                    <h1 class="text-2xl font-bold underline">FIRST</h1>
-                    <p class="text-gray-700 font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-                    <button class ="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">CLICK HERE!</button>
-                </div>
+<body>
+    <div class="container mx-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="box bg-gray-200 p-4 rounded-lg">
+                <img src="https://images.pexels.com/photos/2117938/pexels-photo-2117938.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Placeholder Image" class="w-full h-48 object-cover rounded-md mb-4">
+                <div class="font-bold">Lorem ipsum</div>
+                <div>This is a mini project</div>
+                <button class="bg-sky-500 text-white px-4 py-2 rounded-3xl hover:bg-sky-800">Read More</button>
+            </div>
+            <div class="box bg-gray-200 p-4 rounded-lg shadow-md">
+                <img src="https://images.pexels.com/photos/6783236/pexels-photo-6783236.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Placeholder Image" class="w-full h-48 object-cover rounded-md mb-4">
+                <div class="font-bold">Lorem ipsum</div>
+                <div>This is a mini project</div>
+                <button class="bg-sky-500 text-white px-4 py-2 rounded-3xl hover:bg-sky-800">Read More</button>
+            </div>
+            <div class="box bg-gray-200 p-4 rounded-lg shadow-md">
+                <img src="https://images.pexels.com/photos/14848866/pexels-photo-14848866.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Placeholder Image" class="w-full h-48 object-cover rounded-md mb-4">
+                <div class="font-bold">Lorem ispum</div>
+                <div>this is a mini project</div>
+                <button class="bg-sky-500 text-white px-4 py-2 rounded-3xl hover:bg-sky-800">Read More</button>
             </div>
         </div>
     </div>
+    
     
 </body>
 </html>
